@@ -1,3 +1,5 @@
+''' Based on 'Sijie Hafiz' code: https://gitlab.com/dp-stats/dp-stats '''
+
 def dp_pca_ag ( data, epsilon=1.0, delta=0.1 ):
     '''
     This function provides a differentially-private estimate using Analyze Gauss method

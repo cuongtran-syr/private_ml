@@ -1,3 +1,5 @@
+''' Based on 'Sijie Hafiz' code: https://gitlab.com/dp-stats/dp-stats '''
+
 import numpy as np
 from scipy.optimize import minimize
 
@@ -80,6 +82,8 @@ def lr_objective_train(data, labels, epsilon, Lambda):
 
 def dp_logreg(data, labels, method='obj', epsilon=0.1, Lambda=0.01):
     '''
+    Based on 'Sijie Hafiz' code: https://gitlab.com/dp-stats/dp-stats
+
     This function provides a differentially-private estimate of the logistic regression classifier according to
     Sarwate et al. 2011, "Differentially Private Empirical Risk Minimization" paper.
 

@@ -1,3 +1,5 @@
+''' Based on 'Sijie Hafiz' code: https://gitlab.com/dp-stats/dp-stats '''
+
 import numpy as np
 #from statistics import stdev
 # from pylab import norm
